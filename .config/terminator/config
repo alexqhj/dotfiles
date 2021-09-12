@@ -1,0 +1,24 @@
+[global_config]
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_color = "#839496"
+    font = Roboto Mono for Powerline 11
+    foreground_color = "#839496"
+    show_titlebar = False
+    scrollbar_position = hidden
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      size = 1100, 600
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
